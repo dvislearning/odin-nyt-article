@@ -212,5 +212,66 @@ body {
   display: inline-block;
   position: absolute;
   cursor: pointer;
+}
 
+#main-container {
+  position: relative;
+  left: 30px;
+  top: 49px;
+  height: 302px;
+  width: 98%;
+
+}
+
+.ribbon {
+  position: inherit;
+  height: 85px;
+  width: 100%;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.06);
+  border-bottom: 1px solid #ccc;
+}
+
+.ribbon-box {
+  position: inherit;
+  float: left;
+  height: 75px;
+  width: 240px;
+  background-color: white;
+  margin: 3px 0 5px;
+  padding: 5px 4px 0 3px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #e2e2e2;
+}
+
+.ribbon-box img {
+  position: relative;
+  padding-left: 6px;
+  width: 65px;
+  height: 65px;
+  float: left;
+  clear: left;
+  margin: 0 10px 0 0;  
+}
+
+.ribbon-box h2 {
+  font-size: 0.8145rem;
+  line-height: 1rem;
+  font-weight: 300;
+  font-style: normal;
+  font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+  color: #333;  
+}
+
+.no-kick {
+  margin-top: 12px;
+}
+
+.kick-head {
+  font-size: 0.5625rem;
+  line-height: 0.75rem;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  text-transform: uppercase;
+  color: #000;
 }
