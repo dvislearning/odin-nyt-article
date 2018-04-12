@@ -84,8 +84,6 @@ body {
   z-index: 10;
 }
 
-
-
 .left-masthead-elements {
   margin-left: -15px;
   height: 30px;
@@ -125,12 +123,12 @@ body {
   width: 100px;
 }
 
-.masthead-icon {
+.masthead-icon, .st-sprite-icon {
   background-image: url("../images/sprite-no-repeat.svg"); 
   width: 16px;
   height: 16px;
   margin-top: -1px;
-  margin-right: 10px;
+  /*! margin-right: 10px; */
 }
 
 #sections-icon {
@@ -326,6 +324,7 @@ body {
 .main-article-link {
   color: #000;
   text-decoration: none;
+  margin-right: 12px
 }
 
 .main-article-link:hover {
@@ -349,6 +348,60 @@ body {
   font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
 }
 
-#date-line {
-  
+.share-tools ul {
+  display: flex;
+  flex-shrink: 0;
+  align-self: center;
+  list-style: none;
+}
+
+.share-tools li {
+  margin-right: 15px;
+  font-size: 1rem;
+  line-height: 1.4375rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.st-sprite-icon {
+  display: inline-block;
+  line-height: 0;
+  vertical-align: middle;
+  font-style: normal;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+}
+
+#st-facebook {
+  background-position: -66px -54px;
+}
+
+#st-twitter {
+  background-position: -129px -297px;
+}
+
+#st-email {
+  background-position: -152px -21px;
+}
+
+#st-show-all {
+  background-position: -346px -243px;
+}
+
+#st-save::before {
+  margin-left: -15px;
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  margin-top: 4px;
+  background-color: #e2e2e2;  
+}
+
+#st-save {
+  background-position: -405px -210px;
+  margin-left: 15px;
+  width: 16px;
+  height: 25px;
 }
