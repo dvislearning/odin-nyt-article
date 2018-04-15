@@ -654,3 +654,24 @@ strong {
   font-family: "nyt-franklin",arial,helvetica,sans-serif;
   color: #999;
 }
+
+.text-part2 p:last-of-type{ 
+  margin-bottom: 40px;
+}
+
+#champagne-youtube-vid iframe {
+  width: 54%
+}
+
+#champagne-youtube-vid {
+  margin-bottom: 30px;
+}
+
+#champagne-vid-caption {
+  margin-top: 5px;
+ font-size: 0.8125rem;
+  line-height: 1.0625rem;
+  font-weight: 300;
+  font-style: normal;
+  font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;   
+}
