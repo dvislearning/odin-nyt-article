@@ -23,6 +23,7 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  /*! left: -15px; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -471,7 +472,7 @@ strong {
   height: 300px;
   background-color: white;
   left: 63%;
-  top: 47%;
+  top: 1000px;
   overflow: hidden;
   margin: 5px 0 45px 0;
   cursor: pointer;
@@ -674,4 +675,146 @@ strong {
   font-weight: 300;
   font-style: normal;
   font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;   
+}
+
+#newsletter-signup {
+  border-top: 1px solid #e2e2e2;
+  padding-top: 15px;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 15px;
+  margin-right: 15px;
+  width: 300px;
+  height: 300px;
+  float: left;
+  clear: left;
+}
+
+#newsletter-signup {
+  font-size: 1.25rem;
+  line-height: 1.375rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  padding-bottom: 2px;
+  color: #000;
+}
+
+#nl-signup-summary {
+  font-size: 0.810rem;
+  line-height: 1.125rem;
+  font-weight: 300;
+  font-style: normal;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  margin-bottom: 14px;
+  color: #999;
+}
+
+#newsletter-form {
+  width: 300px;
+  height: auto;
+}
+
+#email-form-container {
+  font-size: 0.8125rem;
+  line-height: 0.9375rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  border-radius: 4px;
+  height: 30px;
+  margin-bottom: 12px;
+  padding: 4px 4px 4px 8px;
+  border: 1px solid #e2e2e2;  
+}
+
+#email-form-container #email-input {
+  font-size: 0.8125rem;
+  line-height: 0.9375rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  padding: 0;
+  box-shadow: none;
+  border: none;
+  height: 30px;
+  border-radius: 3px;
+}
+
+#newsletter-submit-btn {
+  font-size: 0.8125rem;
+  line-height: 0.8125rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  border-radius: 4px;
+  float: right;
+  margin: 4px 5px 0 0;
+  padding: 4px 7px;
+  background: #f3f3f3;
+  border: 1px solid #ccc;
+  text-transform: none; 
+  transition: background-color 0.3s;
+  color: #333;
+  cursor: pointer;
+}
+
+#sp-offers-container {
+  margin-top: 20px;
+  position: relative;
+  left: -4px;
+}
+
+#sp-offers-label {
+  font-size: 0.6475rem;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  color: #666;
+  line-height: 0.9rem;
+  vertical-align: middle; 
+}
+
+
+#sp-offers-check {
+  float: left;
+  margin-top: 4px;
+}
+
+#newsletter-signup img {
+  margin: 15px 0 20px 0;
+}
+
+#signup-footer {
+  border-top: 1px solid #e2e2e2;
+  padding-top: 6px;
+  font-size: 0.625rem;
+  line-height: 0.9375rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: georgia,"times new roman",times,serif;
+}
+
+#signup-footer li {
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  font-size: 0.5125rem;
+  line-height: 0.6875rem;
+  font-weight: 400;
+  font-style: normal;
+  border-left: 1px solid #999;
+  padding-left: 6px;
+  display: inline;
+  width: auto;
+  padding: 0 5px;
+  text-transform: uppercase;
+  color: #333;
+}
+
+#signup-footer li:first-child {
+  border-left: 0;
+  padding-left: 0;
+}
+
+#signup-footer li a {
+  color: #666;
+  text-decoration: none;
 }
