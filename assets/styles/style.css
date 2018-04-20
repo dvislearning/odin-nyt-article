@@ -292,7 +292,7 @@ strong {
   border-top: 1px solid #000;
 }
 
-.main-container {
+.edge-container {
   position:relative;
   background-color: purple;
   width: 100%;
@@ -856,4 +856,89 @@ strong {
 
 .text-part3 {
   margin-bottom: 40px;
+}
+
+#bottom-stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+#more-space-articles {
+  width: 60%;
+  background-color: yellow;
+  border-top: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+#trending-stories {
+  width: 35%;
+  height: 300px;
+  background-color: orangered;
+}
+
+#more-space-header {
+  padding: 0 0 13px 0;
+  margin: 20px;
+}
+
+#more-stories-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#more-space-left {
+  font-size: 1.0625rem;
+  line-height: 1.0625rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  color: #000;
+  text-decoration: none;
+  float: left;
+}
+
+#more-space-right {
+  float: right;
+  font-size: 0.6875rem;
+  line-height: 0.6875rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  text-decoration: none;
+  color: #6288a5;
+}
+
+#more-space-left:hover, #more-space-right:hover {
+  text-decoration: underline;
+}
+
+.more-space-box {
+  width: 210px;
+  margin-bottom: 20px;
+}
+
+.more-story-title {
+  font-size: 1.05rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "cheltenham-normal-500",georgia,"times new roman",times,serif;
+  color: #000;
+  text-decoration: none;
+}
+
+.more-story-title:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+.more-space-kicker {
+  font-size: 0.6875rem;
+ line-height: 0.6875rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  margin-bottom: 6px;
+  color: #000
 }
