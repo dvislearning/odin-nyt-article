@@ -888,7 +888,7 @@ strong {
   flex-wrap: wrap;
 }
 
-.more-space-left {
+.more-articles-left {
   font-size: 1.0625rem;
   line-height: 1.0625rem;
   font-weight: 700;
@@ -899,7 +899,7 @@ strong {
   float: left;
 }
 
-.more-space-right {
+.more-articles-right {
   float: right;
   font-size: 0.6875rem;
   line-height: 0.6875rem;
@@ -910,11 +910,11 @@ strong {
   color: #6288a5;
 }
 
-.more-space-left:hover, .more-space-right:hover {
+.more-articles-left:hover, .more-articles-right:hover {
   text-decoration: underline;
 }
 
-.more-space-box {
+.more-stories-box {
   width: 210px;
   margin-bottom: 20px;
 }
