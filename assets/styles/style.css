@@ -872,7 +872,9 @@ strong {
 
 #trending-stories {
   width: 35%;
-  height: 300px;
+
+  border-top: 1px solid #ccc;
+  padding-top: 10px;  
   background-color: orangered;
 }
 
@@ -941,4 +943,73 @@ strong {
   font-family: "nyt-franklin",arial,helvetica,sans-serif;
   margin-bottom: 6px;
   color: #000
+}
+
+#trending-stories header h2 {
+  font-size: 0.6875rem;
+  line-height: 0.6875rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+#trending-stories ol {
+  counter-reset: li;
+}
+
+#trending-stories ol li:before {
+  margin-right: 10px;
+  counter-increment: li;
+  content: counter(li) ".";
+  width: 5%;
+  text-align: right;
+}
+
+#trending-stories ol li {
+  font-size: 1.1875rem;
+  line-height: 1.1875rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "nyt-cheltenham-extra-cn-bd",georgia,"times new roman",times,serif;
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #F3F3F3;
+  color: #000;
+}
+
+#trending-stories ol li a {
+  font-size: 0.9525rem;
+  line-height: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+  width: 100%;
+  text-align: left;
+  color: #326891;
+  text-decoration: none;
+}
+
+#trending-stories ol li a:hover, #trending-stories footer a:hover {
+  text-decoration: underline;
+}
+
+.trending-thumb img {
+  width: 40px;
+  height: 40px;
+}
+
+
+
+#trending-stories footer a {
+  text-decoration: none;
+  color: #326891;
+  font-size: 0.6875rem;
+  line-height: 0.875rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;  
 }
