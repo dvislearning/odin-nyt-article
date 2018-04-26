@@ -283,13 +283,11 @@ strong {
 
 .main-content {
   position: relative;
-  background-color: lightgoldenrodyellow;
   width: 89%;
   left: 32px;
-  margin-bottom: 32px;
+  /*! margin-bottom: 32px; */
   padding-bottom: 20px;
   border-top: 1px solid #000;
-  border-bottom: 1px solid #ccc;
 }
 
 /** .edge-container {
@@ -865,7 +863,6 @@ strong {
 
 .more-articles {
   width: 60%;
-  background-color: yellow;
   border-top: 1px solid #ccc;
   margin-bottom: 20px;
 }
@@ -874,12 +871,11 @@ strong {
   width: 35%;
   border-top: 1px solid #ccc;
   padding-top: 10px;  
-  background-color: orangered;
 }
 
 .more-stories-header {
   padding: 0 0 13px 0;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .more-stories-container {
@@ -993,7 +989,7 @@ strong {
 }
 
 #trending-stories ol li a:hover, #trending-stories footer a:hover, 
-.footer-col:last-child div li a:hover {
+.footer-col:last-child div li a:hover, .cr-foot-link a:hover {
   text-decoration: underline;
 }
 
@@ -1125,4 +1121,35 @@ strong {
   padding-bottom: 10px;
   border-bottom: 1px solid #ccc;
   margin-bottom: 10px;
+}
+
+#copyright-footer {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  margin-left: 55px;
+  padding-top: 10px;
+}
+
+#copyright-footer, #left-cr-foot, #right-cr-foot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cr-foot-link {
+  padding: 0 5px;
+  border-left: 1px solid #e2e2e2;
+}
+
+.cr-foot-link a {
+  font-size: 0.6475rem;
+  line-height: 10px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  color: #999;
+  text-decoration: none;
+}
+
+.cr-foot-link:first-child {
+  border-left: none;
 }
