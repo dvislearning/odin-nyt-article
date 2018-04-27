@@ -130,7 +130,7 @@ strong {
 }
 
 .masthead-icon, .footer-sprite, .st-sprite-icon {
-  background-image: url("sprite-no-repeat.svg"); 
+  background-image: url("/sprite-no-repeat.svg");
   width: 16px;
   height: 16px;
   margin-top: -1px;
