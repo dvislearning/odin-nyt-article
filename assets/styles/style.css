@@ -989,7 +989,8 @@ strong {
 }
 
 #trending-stories ol li a:hover, #trending-stories footer a:hover, 
-.footer-col:last-child div li a:hover, .cr-foot-link a:hover {
+.footer-col:last-child div li a:hover, .cr-foot-link a:hover, .ribbon-box h2:hover, 
+.index-links li a:hover{
   text-decoration: underline;
 }
 

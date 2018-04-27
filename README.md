@@ -9,3 +9,5 @@ There seems to be an issue with .svg background images being able to render on g
 This probably won't show up when viewing the page locally.
 
 [View on the Web](http://htmlpreview.github.io/?https://github.com/dvislearning/odin-nyt-article/blob/master/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html)
+
+[Link to Original Page](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html) (dynamic content may have changed).
